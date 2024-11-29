@@ -1,0 +1,157 @@
+body{
+    background-color: #F4F4F9;
+}
+
+.navbar {
+    background-color: #3D9CE5;
+    padding: 10px;
+}
+
+.menu {
+    list-style: none; 
+    display: flex;
+    justify-content: center; 
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 20px; 
+}
+
+.menu a {
+    text-decoration: none; 
+    color: white; 
+    transition: 0.4;
+}
+
+.menu a:hover {
+    color: #3077ae;
+}
+
+.logoInsta{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.fotos img {
+    width: 140px;
+    height: 140px;
+    margin: 16px;
+    align-items: center;
+    border-radius: 9px;
+}
+
+.fotos p{
+    text-align: center;
+}
+.fotos fieldset{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.ftPerfil{
+    border-radius: 50%;
+    max-width: 250px;
+    max-height: 250px;
+
+}
+
+.portifolio{
+    max-width: 220;
+    max-height: 220;
+    background-color: #3D9CE5;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/*---------------------------------------------------------------Fomulario---------------------------------------------------------------------------------*/
+
+.form-container {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="email"],
+textarea,
+select {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="email"],
+textarea{
+    width: 270px;
+}
+
+select{
+    width: 270px;
+}
+
+.enviar {
+    background-color: #3D9CE5;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.enviar:hover, .portifolio:hover {
+    background-color: #3077ae; 
+}
+
+/*Portifólio*/
+
+a{
+    text-decoration: none;  
+}
+
+.linkButao{
+    border: none;
+    border-radius: 15px;
+
+}
+
+.linkButao:hover{
+    background-color: #3D9CE5;
+}
+
+.fotosPortifolio img {
+    width: 255px;
+    height: 550px;
+    margin: 16px;
+    align-items: center;
+    border-radius: 9px;
+}
+
+.fotosPortifolio p{
+    text-align: center;
+}
+.fotosPortifolio fieldset{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.Asum{
+    max-width: 4000px;
+    height: 400px;
+    border-radius: 15px;
+}
