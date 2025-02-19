@@ -1,0 +1,254 @@
+body, html {
+    background-color: #F4F4F9;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Garante que o header fique acima de outros elementos */
+    background-color: #3D9CE5; /* Cor de fundo do header */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para dar um efeito de elevação */
+}
+
+h2{
+
+    font-size: 24px;
+    line-height: 1.2;
+    color: #0d6efd;
+
+}
+
+h4{
+
+    font-size: 20px;
+    line-height: 1.2;
+    color: #0d6efd;
+
+}
+.titulo-portifolio{
+
+    color: #0d6efd;
+
+}
+
+.fila {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fila2 {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.titulo-secao {
+    color: #0d6efd;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.titulo-rodape{
+
+    font-size: 26px;
+
+}
+
+.info-geral {
+    margin: 1px 100px;
+}
+
+.img-perfil {
+    margin: 5px 20px;
+}
+
+.text-content p, li {
+    font-size: 18px;
+    color: #252525;
+}
+
+.nome {
+    font-size: 28px;
+    color: #252525;
+    text-align: center;
+}
+
+.text-content h1, h5 {
+    font-size: 20px;
+    color: #252525;
+}
+
+.navbar {
+    background-color: #3D9CE5;
+    padding: 15px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+
+.menu a:hover {
+    color: #3077ae;
+}
+
+.logoInsta {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.fotos img {
+    width: 140px;
+    height: 140px;
+    margin: 16px;
+    align-items: center;
+    border-radius: 9px;
+}
+
+.fotos p {
+    text-align: center;
+}
+
+.fotos fieldset {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.ftPerfil {
+    border-radius: 50%;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.portifolio {
+    max-width: 220px;
+    max-height: 220px;
+    background-color: #3D9CE5;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #3D9CE5;
+    color: white;
+    border-radius: 5px;
+}
+footer img{
+
+    margin: 0 5px;
+
+}
+
+/*-----------------------------------------------------------------------------------Portifólio-----------------------------------------------------------------------------------------------*/
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.linkButao {
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: #3D9CE5;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.linkButao:hover {
+    background-color: #3077ae;
+}
+
+.fotosPortifolio img {
+    width: 100%;
+    max-width: 255px;
+    height: auto;
+    margin: 16px;
+    border-radius: 9px;
+    border: none;
+}
+.fotosPortifolio fieldset {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.Asum {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+    .main {
+        width: 95%;
+    }
+
+    .fila {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fila2 {
+        text-align: center;
+    }
+
+    .fotosPortifolio img {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    .menu li {
+        margin: 0 10px;
+    }
+
+    .navbar {
+        font-size: 16px;
+    }
+
+    .text-content p, li {
+        font-size: 16px;
+    }
+
+    .nome {
+        font-size: 24px;
+    }
+
+    .text-content h1, h5 {
+        font-size: 18px;
+    }
+}
